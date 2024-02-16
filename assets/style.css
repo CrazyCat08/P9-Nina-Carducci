@@ -250,20 +250,15 @@ input[type="submit"] {
 
 /* Ajout styles pour footer */
 footer {
-	background-color: #1c6474;
-	padding-block: 2em;
+	background-color: black;
+	padding: 2em;
 	color: white;
 	text-align: center;
-	p {
-	  a {
-		color: white;
-	  }
-	}
-  }
+}
 
-  .nom-footer {
+.footer__name {	
 	font-weight: 900;
-  }
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -374,4 +369,3 @@ footer {
 		width: 80%;
 	}
 }
-
