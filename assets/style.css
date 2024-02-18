@@ -40,6 +40,7 @@ body {
 
 .social-link img {
 	width: 20px;
+	/* height: 20px; Précision de la hauteur */
 }
 
 #about {
@@ -69,8 +70,9 @@ body {
 
 .picture img {
 	width: 100%;
-
+	height: auto; /* Hauteur auto */
 }
+
 #about-me {
 	flex: 2
 }
@@ -88,6 +90,12 @@ body {
 #about-me p {
 	width: 80%;
 	font-size: 14px;
+}
+
+/* Dimensions photo Nina */
+.nina__img {
+	width: 560px;
+	height: 558px;
 }
 
 /* Mise en commentaire de #gallery {} car min-height déjà en commentaire */
@@ -246,6 +254,12 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
+}
+
+/* Dimensions image appareil photo */
+.camera__img {
+	width: 419px;
+	height: 418px;
 }
 
 /* Ajout styles pour footer */
