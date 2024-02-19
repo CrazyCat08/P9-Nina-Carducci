@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr"> <!-- Langue de la page -->
+<html lang="fr">
 
 <head>
 	<!-- Meta tags -->
@@ -18,12 +18,11 @@
 	<!-- Google fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Spectral:ital,wght@0,400;1,300;1,400;1,800&display=swap" 
+	rel="stylesheet preload" as="style">
 	
 	<!-- Styles -->
-	<!-- <link rel="stylesheet" href="./assets/bootstrap/bootstrap.css"> -->
 	<link rel="stylesheet preload" as="style" href="./assets/bootstrap/bootstrap.min.css">
-	<!-- <link rel="stylesheet" href="./assets/style.css"> -->
 	<link rel="stylesheet preload" as="style" href="./assets/style.css">
 
 </head>
@@ -46,6 +45,7 @@
 							width="20"
 							height="20"
 							alt="Logo Instagram"
+							loading="lazy"
 						>
 					</a>
 				</li>
@@ -65,8 +65,8 @@
 						<picture>
 							<source media="(max-width: 375px)"
 								srcset="./assets/images/slider/ryoji-iwata-375.webp 375w" sizes="100vw">
-							<source media="(max-width: 428px)"
-								srcset="./assets/images/slider/ryoji-iwata-428.webp 428w" sizes="100vw">
+							<source media="(max-width: 480px)"
+								srcset="./assets/images/slider/ryoji-iwata-480.webp 480w" sizes="100vw">
 							<source media="(max-width: 768px)"
 								srcset="./assets/images/slider/ryoji-iwata-768.webp 768w" sizes="100vw">
 							<source media="(max-width: 1024px)"
@@ -74,12 +74,11 @@
 							<source media="(max-width: 1440px)"
 								srcset="./assets/images/slider/ryoji-iwata-1440.webp 1440w" sizes="100vw">
 							<source media="(min-width: 1441px)"
-								srcset="./assets/images/slider/ryoji-iwata-1600.webp 1441w" sizes="100vw">
+								srcset="./assets/images/slider/ryoji-iwata-1920.webp 1441w" sizes="100vw">
 							<img 
-								src="./assets/images/slider/ryoji-iwata-1440.webp"
+								src="./assets/images/slider/ryoji-iwata-1920.webp"
 								class="d-block w-100"
 								alt="Homme d'affaire traversant un passage piéton"
-								width="100vw" height="100%"
 							>
 						</picture>
 					</div>
@@ -87,8 +86,8 @@
 						<picture>
 							<source media="(max-width: 375px)"
 								srcset="./assets/images/slider/nicholas-green-375.webp 375w" sizes="100vw">
-							<source media="(max-width: 428px)"
-								srcset="./assets/images/slider/nicholas-green-428.webp 428w" sizes="100vw">
+							<source media="(max-width: 480px)"
+								srcset="./assets/images/slider/nicholas-green-480.webp 480w" sizes="100vw">
 							<source media="(max-width: 768px)"
 								srcset="./assets/images/slider/nicholas-green-768.webp 768w" sizes="100vw">
 							<source media="(max-width: 1024px)"
@@ -96,13 +95,12 @@
 							<source media="(max-width: 1440px)"
 								srcset="./assets/images/slider/nicholas-green-1440.webp 1440w" sizes="100vw">
 							<source media="(min-width: 1441px)"
-								srcset="./assets/images/slider/nicholas-green-1600.webp 1441w" sizes="100vw">
+								srcset="./assets/images/slider/nicholas-green-1920.webp 1441w" sizes="100vw">
 							<img 
 								loading="lazy"
-								src="./assets/images/slider/nicholas-green-1440.webp"
+								src="./assets/images/slider/nicholas-green-1920.webp"
 								class="d-block w-100"
-								alt="Homme d'affaire traversant un passage piéton"
-								width="100vw" height="100%"
+								alt="Foule de jeunes gens assistant à un concert"
 							>
 						</picture>
 					</div>
@@ -110,8 +108,8 @@
 						<picture>
 							<source media="(max-width: 375px)"
 								srcset="./assets/images/slider/edward-cisneros-375.webp 375w" sizes="100vw">
-							<source media="(max-width: 428px)"
-								srcset="./assets/images/slider/edward-cisneros-428.webp 428w" sizes="100vw">
+							<source media="(max-width: 480px)"
+								srcset="./assets/images/slider/edward-cisneros-480.webp 480w" sizes="100vw">
 							<source media="(max-width: 768px)"
 								srcset="./assets/images/slider/edward-cisneros-768.webp 768w" sizes="100vw">
 							<source media="(max-width: 1024px)"
@@ -119,13 +117,12 @@
 							<source media="(max-width: 1440px)"
 								srcset="./assets/images/slider/edward-cisneros-1440.webp 1440w" sizes="100vw">
 							<source media="(min-width: 1441px)"
-								srcset="./assets/images/slider/edward-cisneros-1600.webp 1441w" sizes="100vw">
+								srcset="./assets/images/slider/edward-cisneros-1920.webp 1441w" sizes="100vw">
 							<img 
 								loading="lazy"
-								src="./assets/images/slider/edward-cisneros-1440.webp"
+								src="./assets/images/slider/edward-cisneros-1920.webp"
 								class="d-block w-100"
-								alt="Homme d'affaire traversant un passage piéton"
-								width="100vw" height="100%"
+								alt="Jenues mariés s'embrassant sous les applaudissements des invités"
 							>
 						</picture>
 					</div>
@@ -144,6 +141,8 @@
 			<div class="picture left">
 				<img class="nina__img" loading="lazy" src="./assets/images/nina-carducci.webp"
 				alt="Portrait de Nina Carducci"
+				width="557"
+				height="557"
 				>
 			</div>
 			<div id="about-me">
@@ -153,7 +152,7 @@
 					une situation, un endroit, une lumière et les rendre immortels, voilà 
 					ce qui me fait vibrer.
 				</p>
-				<p>Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, 
+				<p class="about-me__content">Nous passons notre vie à chercher le bonheur, et lorsque nous y touchons, 
 					nous n’avons qu’une envie : le figer au travers de photographies pour le 
 					savourer avec les personnes qui sont importantes à nos yeux, ou le partager 
 					au plus grand nombre.
@@ -287,7 +286,10 @@
 				<div class="picture right">
 					<img class="camera__img" src="./assets/images/camera.webp"
 					alt="Gros plan sur un appareil photo vintage"
-					loading="lazy">
+					loading="lazy"
+					width="417"
+					height="417"
+					>
 				</div>
 			</div>
 		</section>
@@ -300,6 +302,7 @@
 			  <p>Horaires d'ouverture : Lundi - Vendredi de 10h à 19h.</p>
 		</div>
 	</footer>
+	
 	<!-- Scripts -->
 	<script
 		defer 

@@ -40,7 +40,6 @@ body {
 
 .social-link img {
 	width: 20px;
-	/* height: 20px; Précision de la hauteur */
 }
 
 #about {
@@ -92,45 +91,39 @@ body {
 	font-size: 14px;
 }
 
-/* Dimensions photo Nina */
-.nina__img {
-	width: 560px;
-	height: 558px;
-}
-
-/* Mise en commentaire de #gallery {} car min-height déjà en commentaire */
-/* #gallery { */
-	/*	min-height: 100vh; */
-/* } */
-
 .title{
 	text-align: center;
 	padding-block: 2em;
 }
+
 .gallery .nav {
 	justify-content: center;
 }
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	/* color: #fff; */
 	color:#000;
 	background-color: #BEB45A;
 	border-radius:0 ;
 }
+
 .nav-pills .nav-link {
 	color: #000;
 	cursor: pointer;
 }
+
 .item-column {
 	position: relative;
 	margin-bottom: 0 !important;
 	padding: 0;
 }
+
 .item-column::after{
 	content: "";
 	display: block;
 	padding-bottom: 100%;
 
 }
+
 .gallery-item {
 	position: absolute;
 	width: 100%;
@@ -138,6 +131,7 @@ body {
 	object-fit: cover;
 	padding: .5em;
 }
+
 .mg-prev, .mg-next {
 	width: 30px;
 	height: 30px;
@@ -254,12 +248,6 @@ form textarea {
 input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
-}
-
-/* Dimensions image appareil photo */
-.camera__img {
-	width: 419px;
-	height: 418px;
 }
 
 /* Ajout styles pour footer */
